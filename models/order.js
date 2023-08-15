@@ -24,7 +24,8 @@ const orderSchema = mongoose.Schema({
     shippedOn : {type : String},
     deliveredOn : {type : String},
     firstName : {type : String},
-    lastName : {type : String}
+    lastName : {type : String},
+    email : {type : String},
 
 }, { timestamps : true })
 
